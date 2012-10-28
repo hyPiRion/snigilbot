@@ -1,9 +1,13 @@
 # snigilbot
 
+<img src="https://github.com/downloads/hyPiRion/snigilbot/snigil.png"
+ alt="snigilbot logo" title="The snail himself" align="right" />
+
 snigilbot is a quarto simulator along with different agent opponents. It
 utilizes minimax with alpha-beta pruning to evaluate the next move. The name
 comes from its unique ability to evaluate state much slower than any of the
 C/Java-made minimax agents it has currently played against.
+<br/><br/><br/><br/>
 
 ## Installation
 
@@ -74,7 +78,8 @@ $ java -jar snigil.jar -n 2 human hyPiRion novice
 $ java -jar -n 100 -v verbose minimax 3 minimax 4
  # verbosily play 100 rounds of minimax with depth 3 and minimax with depth 4
 $ java -jar --tournament minimax 4
- # let minimax with depth 4 players
+ # let minimax with depth 4 play a tournament - usually this is used in
+ # server-scripts which reroute stdin and stdout.
 ```
 
 ## License
