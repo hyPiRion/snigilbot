@@ -7,14 +7,18 @@ snigilbot is a quarto simulator along with different agent opponents. It
 utilizes minimax with alpha-beta pruning to evaluate the next move. The name
 comes from its unique ability to evaluate state much slower than any of the
 C/Java-made minimax agents it has currently played against.
-<br/><br/><br/><br/>
+
+Snigilbot is a finished project. People can fork the project, but it's unlikely
+that large pull requests or feature requests will be accepted. Small requests
+and issues can be reported, but they are not high on my priority list.
+<br/><br/>
 
 ## Installation
 
 Installation is straight out of the box: Get a Java version higher than 1.6 and
 you're set. If you want to compile the program yourself, you need to install
 [Leiningen 2][lein] and run `lein uberjar` in this folder. This will generate a
-`snigil.jar`-file which will be available for use.
+`snigil.jar` file which will be available for use.
 
 ## Usage
 
